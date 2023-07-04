@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: linear-gradient(rgb(232, 52, 52) , rgb(179, 72, 212));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.sidebar {
+
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    background-color: rgb(254, 237, 237);
+    opacity: 0.6;
+    transition: all 0.3s ease-in;
+   
+}
+.pro{
+    background-image: linear-gradient(rgb(232, 52, 52) , rgb(179, 72, 212));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+}
+.proj{
+    /* padding-left: 100px; */
+    margin-left: 30px ;
+}
+.project{
+
+    font-family: 'Ubuntu', sans-serif;
+    height: 200vh;
+    background-color: rgb(254, 237, 237);
+    opacity: 0.5;
+}
+.con{
+    background-image: linear-gradient(rgb(232, 52, 52) , rgb(179, 72, 212));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 108vh;
+}
+.contact{
+
+    font-family: 'Ubuntu', sans-serif;
+    height: 102vh;
+    background-color: rgb(254, 237, 237);
+    opacity: 0.5;
+}
+
+.sidebar nav {
+    padding: 36px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0;
+}
+.sidebar nav li a {
+    text-decoration: none;
+}
+
+.main {
+    /* background-color: yellowgreen; */
+    width: 90vw;
+    
+}
+
+.container {
+    display: flex;
+
+}
+
+.infocontainer {
+    /* background-color: aquamarine; */
+    height: 70vh;
+    width: 80vw;
+    margin:80px auto auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    height: 35vh;
+    
+    margin-top: 16vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.hello{
+    font-size: 4rem;
+}
+.name{
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+.about{
+    font-size: 3rem;
+}
+.moreabout{
+    font-size: 1.4rem;
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.buttons{
+    margin-top:  20px;
+}
+.btn{
+    padding: 10px 15px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(140, 49, 225);
+    color: aliceblue;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 10px;
+    font-size: 12px;
+    background-color: rgb(43, 86, 226);
+}
+
+button:hover{
+    background-color: rgb(96, 37, 151);
+}
+
+.contactform{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 120px ;
+    font-weight: bold;
+    
+}
+.contactform h1{
+    font-family: 'rubik';
+    margin: 25px 25px 25px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+   width: 26vw;
+   background-color: transparent;
+   color: aliceblue;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   border-bottom: 2px solid white;
+   margin: 5px 0 0 0;
+   padding: 5px;
+}
+.form-text{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 8px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#isclient{   
+     width: 20px;
+    margin: 3px 0;
+}
+.form-control{
+    margin: -5px;
+}
+.mb-3{
+    margin: 5px 0;
+}
+.blogitem{
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ p{
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 1.4rem;
+    color: aliceblue;
+}
+ h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    margin: 25px;
+}
+.intro{
+    margin-left: 3rem;
+}
+ .intro h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    margin: 25px;
+}
+.intro p{
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 1.4rem;
+    color: aliceblue;
+    margin-left: 25px;
+}
+.skillcontainer{
+    margin-left: 30px;
+}
+.skill{
+    width: 250px;
+    height: 10px;
+    background-color: yellow;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.bcolor{
+    border: 2px solid black;
+    width: 40rem;
+}
+.t80{
+    width: 32rem;
+}
+.t75{
+    width: 30rem;
+}
+.t65{
+    width: 26rem;
+}
+.t50{
+    width: 20rem;
+}
+.t10{
+    width: 4rem;
+}
+.hamburger{
+    margin-top: 20px;
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+}
+
+.bar{
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: aliceblue;    
+}
+ #bar1{
+    transform: translateY(-4px);
+}
+
+ #bar3{
+    transform: translateY(4px);
+}
+
+.icon {
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: rgb(40, 45, 50);
+    margin-left:10rem;
+}
+ #c1{
+    transform: translateY(3px)  rotate(-45deg);
+}
+#c2{
+    transform: translateY(-2px)  rotate(45deg);
+}
+
+.sidebargo{
+    transform: translate(-440px , 0px);
+    position: absolute;
+}
+@media (Max-width:1530px) {
+    .devpic{
+        display: none;
+    }
+ .sidebar{
+    position: absolute;
+    opacity: 0.9;
+ }   
+ .btn{
+    margin: 3px ;
+    padding: 6px 15px;
+ }
+ .blogitem {
+    margin: 20px;
+ }
+ .blogitem p{
+    display: none;
+ }
+ .contactform h1{
+    font-size: 1.4rem;
+ }
+ .form-text{
+    display: none;
+ }
+ .intro , .blogcontainer , .contactform{
+    margin: 8px;
+    margin-left: 55px;
+    padding: 0px;
+
+ }
+ .blogcontainer{
+    margin-left: 25px;
+ }
+}
+@media (Max-width:900px) {
+    .skillitem{
+        display: grid;
+    }
+    .pro{
+        height: 165vh;
+    }
+}
+@media (Max-width:500px) {
+    .skillitem , .intro h2{
+        display: none;
+    }
+    .intro p{
+        font-size: 1.2rem;
+    }
+}
+
